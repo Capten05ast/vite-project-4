@@ -42,6 +42,7 @@ const MyH2 = styled.h2({
     color: "pink", 
     fontFamily: "monospace",
     fontSize: "20px",
+
     backgroundColor: c
 })
 
@@ -125,7 +126,7 @@ export default Useref
 // This command will create a dist folder, which will contain all your projects code 
 
 
-// DEPLOYING REACT APP :-
+// DEPLOYING REACT APP (RENDER):-
 // > Log in to render
 // > click on create at right corner
 // > choose static file (if its frontend app)
@@ -138,3 +139,13 @@ export default Useref
 // > Click on deploy
 // > Now wait till the log section prints your site is live
 // > copy the url popped on render and use it chrome, Your website is deployed
+// > If you wanna make any changes then look out for left side pannel
+
+
+
+
+// GIT AND UPDATING GITHUB REPO :-
+// > write the name of change
+// > commit change (pull and push)
+// > sync changes
+// > Your github repo is updated 
