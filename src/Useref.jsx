@@ -149,3 +149,10 @@ export default Useref
 // > commit change (pull and push)
 // > sync changes
 // > Your github repo is updated 
+
+
+// COMMAND FOR COMMIT IN GIT :-
+// > git add .
+// > git commit -m "change_3"
+// > git pull origin main
+// > git push origin main
