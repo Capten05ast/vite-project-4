@@ -4,7 +4,8 @@
 // 1. useRef 
 // 2. styled components
 // 3. .env variables
-// 3. Optimization and SEO 
+// 4. Render website and dist folder
+// 5. Optimization and SEO 
 //    > lazy loading, suspense, fallback
 //    > Pagination and Infinite Scrolling
 //    > <img loading="lazy"> </img>
@@ -14,6 +15,7 @@
 //    > Light house extension (overall performance of website)
 //    > React Helmet (helps to make website SEO friendly, read docs plz)
 //    > Render website for cloud services
+
 
 
 
@@ -122,8 +124,17 @@ export default Useref
 // NPM RUN BUILD :-
 // This command will create a dist folder, which will contain all your projects code 
 
+
 // DEPLOYING REACT APP :-
 // > Log in to render
 // > click on create at right corner
 // > choose static file (if its frontend app)
-// > run the command nom build in your terminal of vs code 
+// > run the command npm build in your terminal of vs code to create a 
+//   dist folder, which will contain all the code of your project except 
+//   files like .env
+// > Now chose the repository you wanna use for render => Vite-Project-4
+// > Select publish directory = write
+// > click on Add from .env and copy paste the code of .env file in it from v code
+// > Click on deploy
+// > Now wait till the log section prints your site is live
+// > copy the url popped on render and use it chrome, Your website is deployed
