@@ -13,6 +13,7 @@
 //    > Lazy loading = dynamic imports 
 //    > Light house extension (overall performance of website)
 //    > React Helmet (helps to make website SEO friendly, read docs plz)
+//    > Render website for cloud services
 
 
 
@@ -114,3 +115,15 @@ export default Useref
 //     harder, and reduce performance benefits.
 //   > Therefore, React recommends using useRef only when necessary 
 //     (e.g., managing focus, animations, third-party libraries), not as a primary way to manipulate the DOM.
+
+
+
+
+// NPM RUN BUILD :-
+// This command will create a dist folder, which will contain all your projects code 
+
+// DEPLOYING REACT APP :-
+// > Log in to render
+// > click on create at right corner
+// > choose static file (if its frontend app)
+// > run the command nom build in your terminal of vs code 
